@@ -1,0 +1,30 @@
+[23-Sep-2014 13:06:48 Australia/Perth] PHP Warning:  Missing argument 4 for Attendee::sendMeetingInvite(), called in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 18 and defined in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 21
+[23-Sep-2014 13:06:48 Australia/Perth] PHP Warning:  Missing argument 4 for Attendee::sendMeetingInvite(), called in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 18 and defined in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 21
+[23-Sep-2014 13:06:48 Australia/Perth] PHP Warning:  Missing argument 4 for Attendee::sendMeetingInvite(), called in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 18 and defined in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 21
+[25-Sep-2014 13:01:29 Australia/Perth] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/classes/File.php:76) in /home/tawazzne/public_html/apointmate/functions/handle_files.php on line 69
+[25-Sep-2014 13:05:50 Australia/Perth] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/classes/File.php:76) in /home/tawazzne/public_html/apointmate/functions/handle_files.php on line 73
+[25-Sep-2014 13:09:14 Australia/Perth] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/classes/File.php:76) in /home/tawazzne/public_html/apointmate/functions/handle_files.php on line 73
+[25-Sep-2014 13:11:02 Australia/Perth] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/classes/File.php:76) in /home/tawazzne/public_html/apointmate/functions/handle_files.php on line 73
+[25-Sep-2014 13:23:28 Australia/Perth] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/classes/File.php:76) in /home/tawazzne/public_html/apointmate/functions/handle_files.php on line 72
+[25-Sep-2014 14:23:21 Australia/Perth] PHP Fatal error:  Using $this when not in object context in /home/tawazzne/public_html/apointmate/classes/Mail.php on line 16
+[03-Oct-2014 08:45:17 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Student Aaron] does not comply with RFC 2822, 3.6.2.' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Student Aaron')
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /h in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[03-Oct-2014 08:47:02 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [Student Aaron] does not comply with RFC 2822, 3.6.2.' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('Student Aaron')
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /h in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352
+[03-Oct-2014 09:50:32 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_RfcComplianceException' with message 'Address in mailbox given [] does not comply with RFC 2822, 3.6.2.' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:352
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(264): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(108): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(65): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(60): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/tawazzne/public_html/a in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 352

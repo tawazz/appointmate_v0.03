@@ -1,0 +1,21 @@
+[24-Sep-2014 04:02:35 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/tawazzne/public_html/apointmate/functions/upload_minutes.php on line 62
+[26-Sep-2014 14:35:42 Australia/Perth] PHP Fatal error:  Call to a member function create() on a non-object in /home/tawazzne/public_html/apointmate/functions/ajaxtest.php on line 32
+[26-Sep-2014 14:38:51 Australia/Perth] PHP Strict Standards:  Non-static method Mail::send() should not be called statically, assuming $this from incompatible context in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 32
+[26-Sep-2014 14:38:51 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 14:38:51 Australia/Perth] PHP Strict Standards:  Non-static method Mail::send() should not be called statically, assuming $this from incompatible context in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 32
+[26-Sep-2014 14:38:51 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 14:42:27 Australia/Perth] PHP Warning:  fopen(../uploads/5425091cba6f39.94930779.csv): failed to open stream: No such file or directory in /home/tawazzne/public_html/apointmate/functions/ajaxtest.php on line 27
+[26-Sep-2014 14:42:27 Australia/Perth] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home/tawazzne/public_html/apointmate/functions/ajaxtest.php on line 47
+[26-Sep-2014 14:42:27 Australia/Perth] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tawazzne/public_html/apointmate/functions/ajaxtest.php on line 49
+[26-Sep-2014 14:42:27 Australia/Perth] PHP Warning:  unlink(../uploads/5425091cba6f39.94930779.csv): No such file or directory in /home/tawazzne/public_html/apointmate/functions/ajaxtest.php on line 52
+[26-Sep-2014 14:43:19 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 14:43:19 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 14:58:06 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 14:58:06 Australia/Perth] PHP Strict Standards:  Non-static method PEAR::raiseError() should not be called statically, assuming $this from incompatible context in /usr/local/lib/php/Mail.php on line 117
+[26-Sep-2014 15:04:19 Australia/Perth] PHP Fatal error:  Class 'Swift_Message' not found in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 32
+[03-Oct-2014 01:19:53 UTC] PHP Warning:  unlink(../): Is a directory in /home/tawazzne/public_html/apointmate/functions/cancel_booking.php on line 20
+[03-Oct-2014 01:19:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tawazzne/public_html/apointmate/functions/cancel_booking.php:20) in /home/tawazzne/public_html/apointmate/functions/cancel_booking.php on line 22
+[03-Oct-2014 03:38:08 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/tawazzne/public_html/apointmate/functions/upload_minutes.php on line 63
+[03-Oct-2014 03:39:07 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/tawazzne/public_html/apointmate/functions/upload_minutes.php on line 63
+[03-Oct-2014 04:42:26 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/tawazzne/public_html/apointmate/functions/upload_minutes.php on line 46
+[03-Oct-2014 04:43:05 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/tawazzne/public_html/apointmate/functions/upload_minutes.php on line 46

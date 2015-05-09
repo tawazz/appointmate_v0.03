@@ -1,0 +1,154 @@
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Warning:  proc_open() has been disabled for security reasons in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Warning:  stream_set_blocking() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:40:26 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:386
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php(53): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_SendmailTransport->start()
+#4 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(8 in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 386
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Warning:  proc_open() has been disabled for security reasons in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Warning:  stream_set_blocking() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:45:54 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:386
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php(53): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_SendmailTransport->start()
+#4 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(8 in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 386
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Warning:  proc_open() has been disabled for security reasons in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Warning:  stream_set_blocking() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:48:52 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:386
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php(53): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_SendmailTransport->start()
+#4 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(8 in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 386
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Warning:  proc_open() has been disabled for security reasons in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 297
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Warning:  stream_set_blocking() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 298
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Notice:  Undefined variable: pipes in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Warning:  stream_get_contents() expects parameter 1 to be resource, null given in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 299
+[23-Sep-2014 13:51:08 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Expected response code 220 but got code "", with message ""' in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php:386
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(291): Swift_Transport_AbstractSmtpTransport->_assertResponseCode('', Array)
+#1 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(119): Swift_Transport_AbstractSmtpTransport->_readGreeting()
+#2 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php(53): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_SendmailTransport->start()
+#4 /home/tawa in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php on line 386
+[23-Sep-2014 13:52:04 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host 54.206.60.48 [Connection timed out #110]' in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(82): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[23-Sep-2014 13:53:37 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host 54.206.60.48 [Connection timed out #110]' in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(82): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/mailstuff/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[23-Sep-2014 14:05:53 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host 54.206.60.48 [Connection timed out #110]' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(79): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[23-Sep-2014 14:10:27 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host https://tawazz.net [Unable to find the socket transport "https" - did you forget to enable it when you configured PHP? #32454304]' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(79): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[23-Sep-2014 14:14:50 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Connection could not be established with host 54.206.60.48 [Connection timed out #110]' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:271
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(79): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php on line 271
+[24-Sep-2014 12:31:31 Australia/Perth] PHP Fatal error:  Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "appointmate" using 2 possible authenticators' in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php:184
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(312): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(120): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/tawazzne/public_html/apointmate/mailstuff/mailer.php(82): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 {main}
+  thrown in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 184
+[03-Oct-2014 06:38:20 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(11): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 06:38:52 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(12): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 06:40:32 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(12): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 06:40:36 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(12): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 06:57:42 Australia/Perth] PHP Fatal error:  Cannot redeclare class DB in /home/tawazzne/public_html/apointmate/classes/db.php on line 3
+[03-Oct-2014 07:06:00 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(15): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 07:07:22 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(15): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 07:09:57 Australia/Perth] PHP Fatal error:  Call to undefined method DB::errorInfo() in /home/tawazzne/public_html/apointmate/classes/db.php on line 133
+[03-Oct-2014 07:11:07 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(15): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 07:17:01 Australia/Perth] PHP Fatal error:  Uncaught exception 'Exception' with message 'creating user failed' in /home/tawazzne/public_html/apointmate/classes/Attendee.php:19
+Stack trace:
+#0 /home/tawazzne/public_html/apointmate/mailstuff/addsomeattendees.php(15): Attendee->create(Array)
+#1 {main}
+  thrown in /home/tawazzne/public_html/apointmate/classes/Attendee.php on line 19
+[03-Oct-2014 08:15:06 Australia/Perth] PHP Warning:  Missing argument 1 for Swift_Mime_ContentEncoder_PlainContentEncoder::__construct(), called in /home/tawazzne/public_html/apointmate/mailstuff/mailer.php on line 67 and defined in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php on line 40
+[03-Oct-2014 08:15:06 Australia/Perth] PHP Notice:  Undefined variable: name in /home/tawazzne/public_html/apointmate/lib/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php on line 42
+[03-Oct-2014 01:09:33 UTC] PHP Warning:  include_once(../classes/booking): failed to open stream: No such file or directory in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 2
+[03-Oct-2014 01:09:33 UTC] PHP Warning:  include_once(): Failed opening '../classes/booking' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 2
+[03-Oct-2014 01:09:33 UTC] PHP Fatal error:  Class 'Booking' not found in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 4
+[03-Oct-2014 09:09:48 Australia/Perth] PHP Fatal error:  Call to undefined method DB::_result() in /home/tawazzne/public_html/apointmate/classes/booking.php on line 89
+[03-Oct-2014 01:12:47 UTC] PHP Parse error:  syntax error, unexpected 'in' (T_STRING) in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 7
+[03-Oct-2014 09:14:34 Australia/Perth] PHP Warning:  Invalid argument supplied for foreach() in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 7
+[03-Oct-2014 09:16:16 Australia/Perth] PHP Fatal error:  Call to undefined function len() in /home/tawazzne/public_html/apointmate/classes/booking_dev.php on line 91
+[03-Oct-2014 10:02:55 Australia/Perth] PHP Fatal error:  Call to undefined function int() in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 5
+[03-Oct-2014 02:06:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 5
+[03-Oct-2014 02:06:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/tawazzne/public_html/apointmate/mailstuff/meetingtest.php on line 5
