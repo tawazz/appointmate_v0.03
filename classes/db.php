@@ -10,7 +10,7 @@
 
         private function __construct(){
             try{
-                $this->_pdo = new PDO('mysql:Host= 127.0.0.1;dbname=tawazzne_appointmate','tawazzne_admin','9lV2TDfJHfet');
+                $this->_pdo = new PDO('mysql:Host= 127.0.0.1;dbname=appointmate','username','password');
             }catch(PDOException $e){
                 die($e->getMessage());
             }
